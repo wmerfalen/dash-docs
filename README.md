@@ -29,47 +29,47 @@ William  Merfalen
   - Is validated by that Node
   - When several nodes have the same blocks in their blockchain, they are considered to be In consensus
 
-Consensus
-When nodes have the same best blockchain, they are said to be in consensus
-There are Consensus Rules
-Validation rules that Nodes must follow to stay in consensus
+# Consensus
+- When nodes have the same best blockchain, they are said to be in consensus
+- There are Consensus Rules
+  - Validation rules that Nodes must follow to stay in consensus
 
-Merkle Trees
-A Merkle Tree (or Hash Tree) is a special type of data structure where each leaf is the cryptographic hash of a data block
-The branches are labeled with a cryptographic hash of it’s child nodes
-This makes it a good example of a “Cryptographic Commitment Scheme”
+# Merkle Trees
+- A Merkle Tree (or Hash Tree) is a special type of data structure where each leaf is the cryptographic hash of a data block
+- The branches are labeled with a cryptographic hash of it’s child nodes
+  - This makes it a good example of a “Cryptographic Commitment Scheme”
 
-Coinbase
-The first transaction in a block must be a coinbase transaction
+# Coinbase
+- The first transaction in a block must be a coinbase transaction
 
-Transactions
-Allow users to spend duffs
-The input of one transaction is the output of a previous transaction
-A transaction may have multiple outputs
-Such as sending to multiple addresses
-UTXO: Unspent Transaction Output
-For a payment to be valid, it must only use UTXO’s as inputs. For obvious reasons
-Spent transaction output
-The opposite of a UTXO. 
-If outputs exceed inputs, transaction will be rejected
-If inputs exceed outputs, the difference may be claimed as a transaction fee by the miner who created the block containing that transaction
+# Transactions
+- Allow users to spend duffs
+- The input of one transaction is the output of a previous transaction
+- A transaction may have multiple outputs
+  - Such as sending to multiple addresses
+- UTXO: Unspent Transaction Output
+  - For a payment to be valid, it must only use UTXO’s as inputs. For obvious reasons
+- Spent transaction output
+  - The opposite of a UTXO. 
+- If outputs exceed inputs, transaction will be rejected
+- If inputs exceed outputs, the difference may be claimed as a transaction fee by the miner who created the block containing that transaction
 
 
-TXIDs (Transaction Identifiers)
-The hash of a signed transaction
-A sha256d hash of a transaction
+# TXIDs (Transaction Identifiers)
+- The hash of a signed transaction
+- A sha256d hash of a transaction
 
-Outputs
-Contain two fields
-1) A value
-Amount of Duffs to send
-2) A pubkey script
-The conditions that must be passed in order for the duffs to be spent
-Outputs serve as inputs to subsequent transactions
-Outputs are tied to TXIDs
+# Outputs
+- Contain two fields
+  1) A value
+    - Amount of Duffs to send
+  2) A pubkey script
+    - The conditions that must be passed in order for the duffs to be spent
+- Outputs serve as inputs to subsequent transactions
+- Outputs are tied to TXIDs
 
-Duffs
-One DASH is equal to 100,000,000 Duffs
+# Duffs
+- One DASH is equal to 100,000,000 Duffs
 
 
 
