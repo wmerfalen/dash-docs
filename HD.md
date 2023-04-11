@@ -183,3 +183,18 @@ loop:
 
 - local copy of blockchain 
   - used to verify the address you created isn't already taken
+
+
+
+# Keys
+- take Private keys
+- add metadata to it
+  - compression bit
+  - checksum
+- base58
+- equals wallet import format
+
+# Pmt addr
+- Starts with magic byte
+- `X` is first letter
+- recovery bit
