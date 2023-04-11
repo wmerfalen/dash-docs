@@ -1,4 +1,11 @@
 # Blockchain fundamentals
+A Blockchain is a series of blocks that are each tied to each other. 
+The "chain" portion is facilitated by having each block tied to it's
+previous block. The way this works is by having a each block also
+include the cryptographic hash of the previous block. The hashing
+of blocks means that it is very difficult to change a single block
+because that would mean changing all following blocks after that.
+
 ## Block
 - One or more transactions prefaced by a Block Header. 
 - Blocks are protected by Proof of Work
@@ -12,6 +19,9 @@
 
 ## Block Version
 - The version field in a Block Header indicates what validation rules to use
+
+### Why versions matter
+- 
 
 ## Block Height
 - The distance between a block and the genesis block (block 0)

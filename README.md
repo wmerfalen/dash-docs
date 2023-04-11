@@ -4,8 +4,12 @@ The following pages document the research and discovery performed by William Mer
 # Author
 William  Merfalen
 
+# What is DASH?
+DASH is a type of cryptocurrency that utilizes a P2P network to distribute and manage a public ledger. The code is based on Bitcoin and has been heavily modified. DASH uses what's called [Master Nodes](MASTERNODES.md) and [Full Nodes](FULLNODES.md) to communicate with the network. 
+
 # Blockchain fundamentals
-[Blockchain Fundamentals](BLOCKCHAIN.md)
+1) [Blockchain Fundamentals](BLOCKCHAIN.md)
+2) [
 
 # Coinbase
 - The first transaction in a block must be a coinbase transaction
