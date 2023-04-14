@@ -11,7 +11,7 @@ because that would mean changing all following blocks after that.
 - Blocks are protected by Proof of Work
 
 ## Block Header
-- An 80-byte header prefacing the rest of a Block.
+- A seriliazed 80-byte header prefacing the rest of a Block.
 - Belongs to a single Block.
 - Hashed repeatedly to create a Proof of Work
 - The previous Block’s hash is stored in each Block header
@@ -21,7 +21,7 @@ because that would mean changing all following blocks after that.
 - The version field in a Block Header indicates what validation rules to use
 
 ### Why versions matter
-- 
+- Versions describe changes to the Blocks as the years progress and as development of new features continues
 
 ## Block Height
 - The distance between a block and the genesis block (block 0)
